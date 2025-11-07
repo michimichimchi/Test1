@@ -1,0 +1,88 @@
+.history-container {
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.history-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #ffd700;
+}
+
+.no-history {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 60px;
+  text-align: center;
+}
+
+.no-history p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.history-table {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 30px;
+  overflow-x: auto;
+}
+
+.history-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-table th {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 2px solid rgba(255, 215, 0, 0.5);
+  color: #ffd700;
+  font-size: 1.1rem;
+}
+
+.history-table td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.history-table tr:hover {
+  background: rgba(255, 215, 0, 0.05);
+}
+
+.game-type {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.result-win {
+  color: #4caf50;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.result-lose {
+  color: #f44336;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.result-push {
+  color: #ff9800;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.positive {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.negative {
+  color: #f44336;
+  font-weight: bold;
+}

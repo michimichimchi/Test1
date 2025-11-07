@@ -1,0 +1,62 @@
+.leaderboard-container {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.leaderboard-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #ffd700;
+}
+
+.leaderboard-table {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.leaderboard-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.leaderboard-table th {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 2px solid rgba(255, 215, 0, 0.5);
+  color: #ffd700;
+  font-size: 1.2rem;
+}
+
+.leaderboard-table td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.leaderboard-table tr:hover {
+  background: rgba(255, 215, 0, 0.1);
+}
+
+.top-player {
+  background: rgba(255, 215, 0, 0.15);
+}
+
+.rank {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 80px;
+}
+
+.username {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.balance {
+  color: #ffd700;
+  font-weight: bold;
+  text-align: right;
+}

@@ -1,0 +1,259 @@
+.game-container {
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.game-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #ffd700;
+}
+
+.bet-section {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 40px;
+  text-align: center;
+}
+
+.bet-section h2 {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.bet-input {
+  margin-bottom: 25px;
+}
+
+.bet-input label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #ffd700;
+}
+
+.bet-input input {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px;
+  font-size: 1.1rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  text-align: center;
+}
+
+.bet-input input:focus {
+  outline: none;
+  border-color: #ffd700;
+}
+
+.bet-type-section {
+  margin-bottom: 25px;
+}
+
+.bet-type-section label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #ffd700;
+}
+
+.bet-type-section select {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  cursor: pointer;
+}
+
+.bet-options {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bet-option {
+  padding: 12px 24px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.bet-option:hover {
+  border-color: #ffd700;
+}
+
+.bet-option.active {
+  background: rgba(255, 215, 0, 0.3);
+  border-color: #ffd700;
+}
+
+.game-board {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.hand-section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.hand-section h3 {
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 120px;
+}
+
+.card {
+  width: 80px;
+  height: 112px;
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.card.red {
+  color: #dc143c;
+}
+
+.card.black {
+  color: #000;
+}
+
+.card-back {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #ffd700;
+  font-size: 2rem;
+}
+
+.card-rank {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 1.2rem;
+}
+
+.card-suit {
+  font-size: 2rem;
+}
+
+.game-actions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn-action {
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1a1a2e;
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.btn-action:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+}
+
+.game-result {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.game-result h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+.game-result-section {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 40px;
+  text-align: center;
+}
+
+.roulette-result {
+  margin: 30px 0;
+  padding: 40px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid;
+}
+
+.roulette-result.red {
+  background: #dc143c;
+  border-color: #ff0000;
+}
+
+.roulette-result.black {
+  background: #000;
+  border-color: #333;
+}
+
+.roulette-result.green {
+  background: #228b22;
+  border-color: #32cd32;
+}
+
+.result-number {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.result-color {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.hand-name {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #ffd700;
+  font-weight: bold;
+}
